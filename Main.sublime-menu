@@ -1,0 +1,40 @@
+[
+  {
+    "caption": "Tools",
+    "mnemonic": "T",
+    "id": "tools",
+    "children":
+    [
+      {
+        "command": "build",
+        "args": {
+          "variant": "chrome"
+        },
+        "caption": "View in Chrome"
+      },
+      {
+        "command": "build",
+        "args": {
+          "variant": "safari"
+        },
+        "caption": "View in Safari",
+        "platform": "OSX"
+      },
+      {
+        "command": "build",
+        "args": {
+          "variant": "iexplore"
+        },
+        "caption": "View in IExplore",
+        "platform": "Windows"
+      },
+      {
+        "command": "build",
+        "args": {
+          "variant": "firefox"
+        },
+        "caption": "View in Firefox"
+      }
+    ]
+  }
+]

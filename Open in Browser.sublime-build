@@ -1,0 +1,45 @@
+{
+  "selector": "text.html, source.html",
+
+  "osx": {
+    "cmd": ["open", "-a", "Safari", "$file"]
+  },
+
+  "windows": {
+    "cmd": ["C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe", "$file"]
+  },
+
+  "variants":
+  [
+    {
+      "name": "chrome",
+      "osx": {
+        "cmd": ["open", "-a", "Google Chrome", "$file"]
+      },
+      "windows": {
+        "cmd": ["C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "$file"]
+      }
+    },
+    {
+      "name": "iexplore",
+      "windows": {
+        "cmd": ["C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe", "$file"]
+      },
+    },
+    {
+      "name": "safari",
+      "osx": {
+        "cmd": ["open", "-a", "Safari", "$file"]
+      }
+    },
+    {
+      "name": "firefox",
+      "osx": {
+        "cmd": ["open", "-a", "Firefox", "$file"]
+      },
+      "windows": {
+        "cmd": ["C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "$file"]
+      }
+    }
+  ]
+}
